@@ -33,7 +33,7 @@ Note: Welcome to Part A. In this first hour we'll cover foundational concepts th
 
 Note: Start with a broad definition. Ask students what they think AI means before revealing this slide.
 
-----
+---
 
 ### The AI Hierarchy
 
@@ -90,19 +90,6 @@ prediction = model.predict(new_email)
 
 Note: This is a critical distinction. In ML, we don't hand-code the rules.
 
-----
-
-### The Learning Process
-
-1. **Initialize:** Start with random weights
-2. **Forward Pass:** Make predictions
-3. **Calculate Loss:** How wrong are we?
-4. **Backward Pass:** Compute gradients
-5. **Update:** Adjust weights to reduce loss
-6. **Repeat:** Until convergence
-
-This is <span class="key-term">gradient descent</span>!
-
 ---
 
 ## Neural Networks: Basics
@@ -133,21 +120,53 @@ Note: The activation function f introduces non-linearity, allowing networks to l
 
 ---
 
-## What do these things look like?
+## What do "real" networks look like?
+
+![VGG16 Architecture](images/vgg16_architecture.png)
+
+**Properties:**
+- Many stacked layers
+- Lower layers - simple features.
+- Top layers - complex forms.
+---
+
+## What does prediction look like?
 
 ![DNN Prediction](images/neural_network_forward_pass.gif)
 
 ---
 
-## Training process?
+## The Learning Process
+
+1. **Initialize:** Start with random weights
+2. **Forward Pass:** Make predictions
+3. **Calculate Loss:** How wrong are we?
+4. **Backward Pass:** Compute gradients
+5. **Update:** Adjust weights to reduce loss
+6. **Repeat:** Until convergence
+
+This is <span class="key-term">gradient descent</span>!
+
+---
+
+## Loss function?
 
 *Define a "loss" function - measure of how wrong a prediction is*
 
-$$ L = g()$$
+<span class="key-term">
+$$ L = g(outputs, correct_labels)$$
+</span>
 
-Note: The activation function f introduces non-linearity, allowing networks to learn complex patterns.
+**Properties**
+ - Differentiable.
+ - Non-negative, and 0 for perfect prediction.
+ - Reflects severity of different types of errors.
+
+Note: The loss function is a *choice*!
 
 ---
+
+
 
 ## Key Takeaways: Part A
 
