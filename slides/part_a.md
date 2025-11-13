@@ -1,6 +1,8 @@
-# Part A: Introduction to Artificial Intelligence
+# Learning to Learn - AI in Education
+# Part A: What is Artificial Intelligence
 
-**QMUL Lecture Series**
+**QMUL Lecture**
+*24th November 2025*
 
 *Press 'S' for speaker notes • Arrow keys to navigate*
 
@@ -10,20 +12,20 @@
 
 By the end of Part A, you will be able to:
 
-- Define key concepts in artificial intelligence
-- Understand the historical context of AI development
-- Identify different paradigms in AI
-- Recognize the relationship between AI, ML, and Deep Learning
+- Describe what defines machine learning and artificial intelligence
+- Understand how "models" are trained.
+- Explain how this training limits their abilities
+- Describe how these limitations manifest for LLMs.
 
-Note: Welcome to Part A. Today we'll cover foundational concepts that will be essential for the rest of the course.
+Note: Welcome to Part A. In this first hour we'll cover foundational concepts that will be essential for Part B.
 
 ---
 
 ## What is Artificial Intelligence?
 
-<span class="key-term">Artificial Intelligence (AI)</span> is the simulation of human intelligence processes by machines, especially computer systems.
+<span class="key-term">Artificial Intelligence (AI)</span> is the simulation of human processes by machines, specifically computer systems.
 
-**Key processes include:**
+**Examples include:**
 
 - Learning (acquiring information and rules)
 - Reasoning (using rules to reach conclusions)
@@ -35,38 +37,7 @@ Note: Start with a broad definition. Ask students what they think AI means befor
 
 ### The AI Hierarchy
 
-```
-┌─────────────────────────────────┐
-│   Artificial Intelligence       │  ← Broad field
-│  ┌───────────────────────────┐  │
-│  │   Machine Learning        │  │  ← Learning from data
-│  │  ┌─────────────────────┐  │  │
-│  │  │  Deep Learning      │  │  │  ← Neural networks
-│  │  └─────────────────────┘  │  │
-│  └───────────────────────────┘  │
-└─────────────────────────────────┘
-```
-
-<span class="small">Each inner layer is a subset of the outer layer</span>
-
----
-
-## Brief History of AI
-
-**1950s:** The Birth
-- Alan Turing's "Computing Machinery and Intelligence"
-- Dartmouth Conference (1956) - AI formally founded
-
-**1960s-70s:** Early Enthusiasm
-- Expert systems and symbolic AI
-
-**1980s-90s:** First AI Winter → Revival
-- Machine learning emerges as dominant paradigm
-
-**2000s-Present:** Deep Learning Revolution
-- Big data + computational power = breakthrough results
-
-Note: Emphasize that AI has gone through cycles of hype and disappointment, known as "AI winters"
+![AI Hierarchy](images/ai_hierarchy.png)
 
 ---
 
@@ -76,7 +47,7 @@ Note: Emphasize that AI has gone through cycles of hype and disappointment, know
 <div class="column">
 
 ### Symbolic AI
-("Good Old-Fashioned AI")
+("Traditional" AI)
 
 - Rule-based systems
 - Logic and reasoning
@@ -96,8 +67,6 @@ Note: Emphasize that AI has gone through cycles of hype and disappointment, know
 
 </div>
 </div>
-
-**Modern AI:** Combines both approaches!
 
 ---
 
@@ -123,43 +92,6 @@ Note: This is a critical distinction. In ML, we don't hand-code the rules.
 
 ----
 
-### Types of Machine Learning
-
-**Supervised Learning**
-- Learn from labeled data
-- Classification and regression
-- Example: Image classification, price prediction
-
-**Unsupervised Learning**
-- Find patterns in unlabeled data
-- Clustering and dimensionality reduction
-- Example: Customer segmentation
-
-**Reinforcement Learning**
-- Learn through trial and error
-- Agent, environment, rewards
-- Example: Game playing, robotics
-
----
-
-## Mathematical Foundations
-
-A simple linear model:
-
-$$y = wx + b$$
-
-Where:
-- $y$ is the prediction
-- $x$ is the input feature
-- $w$ is the weight (learned parameter)
-- $b$ is the bias (learned parameter)
-
-**Learning = Finding optimal $w$ and $b$**
-
-Note: Don't worry if students aren't comfortable with math yet - we'll build this up gradually.
-
-----
-
 ### The Learning Process
 
 1. **Initialize:** Start with random weights
@@ -178,7 +110,7 @@ This is <span class="key-term">gradient descent</span>!
 <div class="columns">
 <div class="column">
 
-**Biological Inspiration:**
+**Biological "Inspiration":**
 - Neurons receive signals
 - Process information
 - Send output to other neurons
@@ -201,23 +133,19 @@ Note: The activation function f introduces non-linearity, allowing networks to l
 
 ---
 
-## Why Deep Learning Now?
+## What do these things look like?
 
-Three key enablers:
+![DNN Prediction](images/neural_network_forward_pass.gif)
 
-1. **Big Data**
-   - Internet-scale datasets
-   - Millions of labeled examples
+---
 
-2. **Computational Power**
-   - GPUs and specialized hardware
-   - Cloud computing
+## Training process?
 
-3. **Algorithmic Innovations**
-   - Better architectures (CNNs, Transformers)
-   - Improved training techniques
+*Define a "loss" function - measure of how wrong a prediction is*
 
-<span class="emphasis">All three are necessary!</span>
+$$ L = g()$$
+
+Note: The activation function f introduces non-linearity, allowing networks to learn complex patterns.
 
 ---
 
@@ -240,8 +168,6 @@ Note: Take questions before moving to Part B. This is a good break point.
 <div style="margin-top: 2em; font-size: 0.9em;">
 
 **Resources:**
-- Course repository: github.com/[your-username]/QMUL-Lecture
-- Office hours: [Your time]
-- Email: [Your email]
+- Course repository: github.com/chrispedder/QMUL-Lecture
 
 </div>
