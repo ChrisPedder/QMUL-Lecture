@@ -7,7 +7,13 @@ __pycache__/
 *.so
 
 # launch scripts
-launch_notebook.sh
+launch_bayesian_notebook.sh
+
+# notebook outputs
+notebooks/outputs/
+
+# non-commit files
+.DS_Store
 
 # Distribution / packaging
 .Python

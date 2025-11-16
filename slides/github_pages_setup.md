@@ -25,13 +25,13 @@ git push origin main
 ## Step 3: Wait for Deployment
 
 - GitHub will take 1-2 minutes to build and deploy
-- You'll see a message: "Your site is live at `https://[username].github.io/QMUL-Lecture/`"
+- You'll see a message: "Your site is live at `https://chrispedder.github.io/QMUL-Lecture/`"
 
 ## Step 4: Access Your Slides
 
 Your slides will be available at:
 ```
-https://[your-username].github.io/QMUL-Lecture/slides/
+https://chrispedder.github.io/QMUL-Lecture/slides/
 ```
 
 ## Step 5: Update Your Repository README
@@ -42,12 +42,12 @@ Add a link to your slides in your main `README.md`:
 ## 📊 Lecture Slides
 
 Interactive slides for the course lectures:
-- [View Slides Online](https://[your-username].github.io/QMUL-Lecture/slides/)
+- [View Slides Online](https://chrispedder.github.io/QMUL-Lecture/slides/)
 - [Slides Source Code](./slides/)
 
 ## 📓 Jupyter Notebooks
 
-- [Bayesian NN MNIST Demo](./bayesian_nn_mnist_demo.ipynb)
+- [Bayesian NN MNIST Demo](./notebooks/bayesian_nn_mnist_demo.ipynb)
 
 ## 🚀 Getting Started
 
