@@ -1,4 +1,4 @@
-# Learning to Learn - AI in Education
+# Learning to Learn - AI and Human Learning
 # Part A: What is Artificial Intelligence
 
 **QMUL Lecture**
