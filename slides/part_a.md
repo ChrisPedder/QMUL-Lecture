@@ -163,7 +163,7 @@ Note: If you get lost, go back to $y=mx+c$.
 
 ---
 
-## What does prediction look like?
+## What does the prediction process look like?
 
 ![DNN Prediction](images/neural_network_forward_pass.gif)
 
@@ -209,6 +209,12 @@ This is to ensure that we converge to a "good" minimum. There is no guarantee no
 ## What does this look like?
 
 ![What do distributions look like](images/gaussian_weights_pdf.png)
+
+---
+
+## What does *a prediction* look like?
+
+![DNN Prediction Output](images/softmax_visualization.png)
 
 ---
 
