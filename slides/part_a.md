@@ -179,12 +179,21 @@ $$ L = g(\tilde{y}, y)$$
 - Predicted labels $\tilde{y}$ - from model.
 - True labels $y$ - from ground truth
 
+Note: The loss function is a *choice*! Different loss functions will give us very different solutions.
+
+---
+
+## Loss function?
+*Define a "loss" function - measure of how wrong a prediction is*
+
+<span class="key-term">
+$$ L = g(\tilde{y}, y)$$
+</span>
+
 **Properties**
  - Differentiable.
  - Non-negative, and 0 for perfect prediction.
  - Reflects severity of different types of errors.
-
-Note: The loss function is a *choice*! Different loss functions will give us very different solutions.
 
 ---
 
