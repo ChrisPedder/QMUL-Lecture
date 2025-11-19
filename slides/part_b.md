@@ -122,7 +122,7 @@ Note: I am getting on a bit, but this was the mnemonic I was taught in school!
 *We really want to make a system which is good at prediction*
 
  - We can measure how unlikely a new pattern of sensor data is.
-<span class="key-term">L = - \ln \int $p(s, \theta | \alpha) d\theta $</span>
+<span class="key-term">$L = - \ln \int $p(s, \theta | \alpha) d\theta $</span>
  - Note that this depdends on $\alpha$, the action taken by the organism.
  - If we minimize this, we are reducing the likelihood that the organism is surprised!
 
