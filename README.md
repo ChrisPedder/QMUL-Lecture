@@ -31,13 +31,6 @@ The materials are designed for teaching and include interactive notebooks, visua
 │   ├── bayesian_nn_mnist_demo.ipynb    # Bayesian vs Standard DNN comparison
 │   ├── bacterium_visualization.ipynb   # FEP bacterium agent visualization
 │   └── outputs/                        # Generated figures and animations
-│       ├── backpropagation.gif
-│       ├── curve_fitting_mse.gif
-│       ├── neural_network_forward_pass.gif
-│       ├── single_layer_neural_network.png
-│       ├── single_layer_nn_simple.png
-│       ├── vgg16_architecture.png
-│       └── vgg16_architecture_detailed.png
 │
 ├── free_energy_simulations/
 │   ├── fep_agent_simulation.py         # FEP agent in 3D environment
