@@ -90,23 +90,51 @@ The materials are designed for teaching and include interactive notebooks, visua
 
 - Python 3.12 or higher
 - UV package manager (recommended) or pip
+- **System-level Graphviz** (required for neural network architecture visualizations)
 
 ### Installation
 
 1. **Clone the repository**
-   ```bash
+```bash
    git clone <repository-url>
    cd QMUL-Lecture
-   ```
+```
 
-2. **Run the setup script**
-   ```bash
+2. **Install system-level Graphviz**
+
+   The Python packages `pydot` and `graphviz` (included in dependencies) require the system-level Graphviz executables to generate network architecture diagrams.
+
+   **macOS:**
+```bash
+   brew install graphviz
+```
+
+   **Ubuntu/Debian:**
+```bash
+   sudo apt-get install graphviz
+```
+
+   **Windows:**
+   - Download installer from https://graphviz.org/download/
+   - Run the installer and ensure "Add to PATH" is selected
+   - Restart your terminal/IDE after installation
+
+   **Verify installation:**
+```bash
+   dot -V
+   # Should output: dot - graphviz version X.X.X
+```
+
+   **Note:** If you skip this step, the neural network visualization functions will fall back to text-based summaries instead of generating graphical diagrams.
+
+3. **Run the setup script**
+```bash
    chmod +x setup.sh
    ./setup.sh
-   ```
+```
 
    Or manually with UV:
-   ```bash
+```bash
    # Install UV if needed
    curl -LsSf https://astral.sh/uv/install.sh | sh
 
@@ -119,21 +147,21 @@ The materials are designed for teaching and include interactive notebooks, visua
 
    # Install Jupyter kernel
    python -m ipykernel install --user --name bayesian-nn --display-name "Bayesian NN (Python 3.12)"
-   ```
+```
 
-3. **Launch notebooks**
-   ```bash
+4. **Launch notebooks**
+```bash
    # For the Bayesian NN demo specifically
    ./launch_bayesian_notebook.sh
 
    # Or open any notebook
    jupyter notebook notebooks/
-   ```
+```
 
-4. **Run the FEP simulation**
-   ```bash
+5. **Run the FEP simulation**
+```bash
    python free_energy_simulations/fep_agent_simulation.py
-   ```
+```
 
 ### Viewing the Slides
 
