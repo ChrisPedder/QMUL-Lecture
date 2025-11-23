@@ -8,6 +8,18 @@
 
 ---
 
+## Housekeeping
+
+- Lecture is in two parts, around 45-50minutes long.
+- I want to challenge and inspire, not teach all the details.
+- If you want more details, there is a repository for code.
+
+<img src="images/qr_code.jpeg" alt="QR Code" width="200">
+
+Note: Welcome to Part A. In this first hour we'll cover foundational concepts that will be essential for Part B.
+
+---
+
 ## Learning Objectives
 
 By the end of Part A, you will be able to:
@@ -165,7 +177,7 @@ Note: If you get lost, go back to $y=mx+c$.
 
 ## What does the prediction process look like?
 
-![DNN Prediction](images/neural_network_forward_pass.gif)
+<img src="images/neural_network_forward_pass.gif" alt="DNN Prediction" width="900">
 
 ---
 

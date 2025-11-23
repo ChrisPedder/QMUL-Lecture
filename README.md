@@ -14,6 +14,11 @@ The materials are designed for teaching and include interactive notebooks, visua
 - Explore the Free Energy Principle as a model for biological learning and behavior
 - Compare machine learning approaches with biological intelligence
 
+## Slides
+
+The slides for this lecture are located [here](https://chrispedder.github.io/QMUL-Lecture/).
+
+
 ## Repository Structure
 
 ```
@@ -168,9 +173,8 @@ The materials are designed for teaching and include interactive notebooks, visua
 The slides are built with Reveal.js and can be viewed locally or deployed to GitHub Pages:
 
 ```bash
-cd slides
-python -m http.server 8000
-# Open http://localhost:8000 in your browser
+uv run python -m http.server 8000 --bind 127.0.0.1
+# Open http://127.0.0.1:8000 in your browser
 ```
 
 See `slides/github_pages_setup.md` for deployment instructions.

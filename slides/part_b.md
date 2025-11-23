@@ -107,7 +107,7 @@ Note: I am getting on a bit, but this was the mnemonic I was taught in school!
 
 ---
 
-### How to set the model parameters $\lambda$ ?
+### How to set the model parameters ?
 
 *We need a new quantity to optimise*
 
@@ -125,7 +125,7 @@ Note: I am getting on a bit, but this was the mnemonic I was taught in school!
 
 
  - We can measure how unlikely a new pattern of sensor data is.
- - Note that this depdends on $\alpha$, the action taken by the organism.
+ - Note that this depends on $\alpha$, the action taken by the organism.
  - If we minimize this, we are reducing the likelihood that the organism is surprised!
 
 Note: You might think that minimizing surprisal means that the organism will just avoid all environments where it doesn't have any experience.
@@ -143,8 +143,8 @@ This isn't possible - living things are at the mercy of their environment - they
           Theta["θ (Unknown Causes)"] --> S["s (Sensory Inputs)"]
       end
       subgraph INF[Inference]
-          S -->|"Perception"| LambdaOpt["λ = min(L) over λ"]
-          LambdaOpt -->|"Action"| AlphaOpt["α = min(L) over α"]
+          S -->|"Perception"| LambdaOpt["λ* = argmin L(λ)"]
+          LambdaOpt -->|"Action"| AlphaOpt["α* = argmin L(α)"]
       end
       AlphaOpt -->|"update beliefs"| Theta
       classDef envClass fill:#e3f2fd,stroke:#2196f3,stroke-width:2px
@@ -175,7 +175,7 @@ This isn't possible - living things are at the mercy of their environment - they
 ### *Why do we learn*?
 
 - To explain what we see (tigers in the woods -> calculus).
-- To maintain the future existence of humanity (technology)?
+- To maintain the future existence of humanity/our genes (technology)?
 - To develop shared models of the world (reduce war).
 
 ---
