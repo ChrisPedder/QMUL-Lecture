@@ -40,7 +40,7 @@ Note: I am getting on a bit, but this was the mnemonic I was taught in school!
 - Respiration
 - Sensitivity
 - Growth
-- Resproduction
+- Reproduction
 - Excretion
 - Nutrition
 
@@ -54,7 +54,7 @@ Note: I am getting on a bit, but this was the mnemonic I was taught in school!
 - Respiration - clostridium bacteria?
 - Sensitivity - viruses?
 - Growth
-- Resproduction - worker ants, worker bees?
+- Reproduction - worker ants, worker bees?
 - Excretion
 - Nutrition - mayflies?
 
