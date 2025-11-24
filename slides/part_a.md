@@ -218,6 +218,15 @@ This is to ensure that we converge to a "good" minimum. There is no guarantee no
 
 ---
 
+## What does learning look like in Loss function space?
+
+<img src="images/gradient_descent.gif" alt="Gradient descent" width="700">
+
+Note: The updates to the "weights" of the neural network are usually not the *full* gradient, but rather some small number (the *learning rate*) multiplied by them.
+This is to ensure that we converge to a "good" minimum. There is no guarantee now that minima are unique either.
+
+---
+
 ## Quick preamble on distributions.
 
 *Gradient descent as we have described gives a **single number** for each weight*
